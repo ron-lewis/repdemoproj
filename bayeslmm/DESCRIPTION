@@ -1,0 +1,20 @@
+Package: bayeslmm
+Title: A Bayesian Linear Mixed Effect Model
+Version: 0.0.1
+Authors@R: 
+    person(given = "Ron", 
+            family = "Lewis", 
+            email = "ron.lewis@dfo-mpo.gc.ca", 
+            role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    brms,
+    dplyr,
+    ggplot2,
+    lme4,
+    magrittr,
+    tibble
